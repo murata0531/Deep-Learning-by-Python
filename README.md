@@ -24,6 +24,11 @@ python 実行(例としてsample.pyを実行する)
 $ python sample.py 180.0
 ```
 
+numpyなどのライブラリのインポートに失敗した場合は
+```
+$ echo 'export PATH="$HOME/Library/Python/2.7/bin:$PATH"' >> ~/.bash_profile
+```
+
 コンテナ削除
 
 ```
