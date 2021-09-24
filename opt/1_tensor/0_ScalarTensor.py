@@ -1,6 +1,6 @@
 # coding: utf-8
 import numpy as np
-# 0階テンソル
+# 数値を一つしか格納していないテンソルを「0階テンソル」、「スカラーテンソル」と呼ぶ
 x = np.array(15)
 print(x)
 # データ型
